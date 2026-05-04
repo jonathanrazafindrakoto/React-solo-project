@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  height: auto;
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
 }
@@ -9,7 +10,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 30px;
+  border: none;
 }
 
 .main-container {
@@ -28,22 +30,19 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
 }
 
 .hero-container .hero-image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .name {
   font-size: 25px;
   font-weight: bold;
   color: #fff;
-  margin: 0;
 }
 
 .Job{
@@ -64,7 +63,6 @@ body{
 .buttons{
   display: flex;
   gap: 10px;
-  margin-bottom: 10px;
 }
 
 .email{
@@ -103,14 +101,13 @@ body{
 
 .about-section, .interests-section {
   width: 100%;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: start;
-  border-radius: 10px;
 }
 
 .about, .interests {
+  color: white;
   font-weight: bold;
 }
 
@@ -123,12 +120,12 @@ body{
 
 .media-section{
   background-color: #161619;
-  padding: 20px;
+  padding: 5px;
   width: 100%;
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  margin-bottom: 0px;
+  margin-top: 15px;
 }
 
 .media-section ul{
