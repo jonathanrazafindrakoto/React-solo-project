@@ -1,6 +1,6 @@
 import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faBook} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin , faTwitter, faInstagram, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
