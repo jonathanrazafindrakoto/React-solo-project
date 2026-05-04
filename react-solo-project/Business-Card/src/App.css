@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  width: 400px;
+  height: fit-content;
+  background-color: #1A1B21;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-container .hero-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.Job{
+  color: #F3BF99;
+  font-size: 17px;
+}
+
+.website a{
+  text-decoration: none;
+  color: #F5F5F5;
+  font-size: 15px;
+}
+
+.website a:hover{
+  color: #a299f3;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.email{
+  font-size: 14px;
+  color: rgba(55, 65, 81, 1);
+  border: none;
+  border-radius: 6px;
+  width: 150px;
+  height: 40px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.email:hover{
+  transform: translateY(-3px);
+  background-color: hsl(0, 0%, 88%);
+}
+
+.linkedin{
+  border: none;
+  border-radius: 6px;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #5093E2;
+  color: #fff;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.linkedin:hover{
+  transform: translateY(-3px);
+  background-color: hsl(212, 47%, 46%);
+}
+
+.about-section, .interests-section {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 10px;
+}
+
+.about, .interests {
+  font-weight: bold;
+}
+
+.about-text, .interests-text {
+  text-align: start;
+  line-height: 24px;
+  color: rgba(220, 220, 220, 1);
+  margin-bottom: 10px;
+}
+
+.media-section{
+  background-color: #161619;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+
+.media-section ul{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+.media-section ul li a{
+  color: #918E9B;
+  font-size: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.media-section ul li a:hover{
+  color: #a299f3;
+}
